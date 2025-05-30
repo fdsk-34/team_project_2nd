@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자유게시판 | 수제커피브루</title>
+    <link rel="stylesheet" href="./board.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>수제커피브루</h1>
+        <nav>            
+            <a href="./07_teamproj_index.html" >홈</a>
+            <a href="./07_teamproj_submenu.html">메뉴</a>
+            <a href="./07_teamproj_findstore.html">매장 찾기</a>
+            <a href="./07_teamproj_dlivery.html" >배송현황</a>
+            <a href="./07_teamproj_order_tracking.html" >주문조회</a>
+            <a href="./07_teamproj_login.html">로그인</a>
+            <a href="./07_teamproj_join_page.html">회원 가입</a>
+            <a href="./07_teamproj_board.html" class="active">자유 게시판</a>
+            <span class="cart-icon">장바구니🛒<span class="cart-count">0</span></span>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="color: #2d4739; margin-bottom: 20px;">자유게시판</h2>
+        <div class="board-header">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="제목 또는 작성자로 검색">
+                <button onclick="searchPosts()">검색</button>
+            </div>
+            <a href="07_teamproj_board_write.html" class="write-btn">글쓰기</a>
+        </div>
+        <table class="board-table">
+            <thead>
+                <tr>
+                    <th style="width: 10%;">번호</th>
+                    <th style="width: 50%;">제목</th>
+                    <th style="width: 15%;">작성자</th>
+                    <th style="width: 15%;">작성일</th>
+                    <th style="width: 10%;">조회수</th>
+                </tr>
+            </thead>
+            <tbody id="board-body"></tbody>
+        </table>
+        <div class="pagination" id="pagination"></div>
+    </main>
+
+    <footer>
+        © 2025 수제커피브루 | 경기도 커피시 향기구 아라비카로 100
+    </footer>
+
+    <script src="./board.js">
+   
+</script>
+
+     
+</body>
+</html>
