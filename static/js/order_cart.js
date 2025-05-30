@@ -1,4 +1,4 @@
- let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
         function updateCart() {
             const cartItems = document.getElementById('cartItems');
