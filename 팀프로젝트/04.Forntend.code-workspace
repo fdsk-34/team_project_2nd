@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "D:/osm"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "04.Forntend",
+		"files.autoGuessEncoding": false
+	}
+}
