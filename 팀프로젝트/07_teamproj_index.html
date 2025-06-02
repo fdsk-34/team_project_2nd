@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>수제커피브루 - 홈</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+        <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/board.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
     <style>
      
     </style>
 </head>
 <body>
     <header>
-        <h1>수제커피 이른 아침</h1>
-        <nav>            
+          <h1><img src="./img/K-038.png"> 이른 아침</h1>
+        <nav>
             <a href="./07_teamproj_index.html" class="active">홈</a>
             <a href="./07_teamproj_submenu.html">메뉴</a>
             <a href="./07_teamproj_findstore.html">매장 찾기</a>
-            <a href="./07_teamproj_dlivery.html" >배송현황</a>
-            <a href="./07_teamproj_order_tracking.html" >주문조회</a>
+            <a href="./07_teamproj_dlivery.html">배송현황</a>
+            <a href="./07_teamproj_order_tracking.html">주문조회</a>
+            <a href="./07_teamproj_board.html" >자유 게시판</a>
+        </nav>
+        <nav>
             <a href="./07_teamproj_login.html">로그인</a>
             <a href="./07_teamproj_join_page.html">회원 가입</a>
-            <a href="./07_teamproj_board.html">자유 게시판</a>
             <span class="cart-icon">장바구니🛒<span class="cart-count">0</span></span>
         </nav>
     </header>
@@ -41,13 +47,13 @@
             <div class="notice-box">
                 <h3>공지사항</h3>
                 <p>최근 공지사항을 확인하세요.</p>
-                <a href="notice_board.html" class="more-link">더 보기</a>
+                <a href="./07_teamproj_notice_view.html" class="more-link">더 보기</a>
             </div>
             <!-- 자유 게시판 박스 -->
             <div class="free-board-box">
                 <h3>자유 게시판</h3>
                 <p>최근 게시물을 확인하세요.</p>
-                <a href="free_board.html" class="more-link">더 보기</a>
+                <a href="./07_teamproj_board.html" class="more-link">더 보기</a>
             </div>
         </div><br>
 
@@ -58,15 +64,15 @@
             <h3>인기 메뉴</h3>
             <div class="menu-items">
                 <div class="menu-item">
-                    <img src="..." alt="브루드 아메리카노">
+                    <a href="./07_teamproj_menu_order.html"><img src="./img/K-070.png" alt="브루드 아메리카노"></a> 
                     <p>브루드 아메리카노</p>
                 </div>
                 <div class="menu-item">
-                    <img src="..." alt="핸드드립 콜드브루">
+                     <a href="./07_teamproj_menu_order.html"><img src="./img/K-071.png" alt="핸드드립 콜드브루"></a>
                     <p>핸드드립 콜드브루</p>
                 </div>
                 <div class="menu-item">
-                    <img src="..." alt="시그니처 라떼">
+                    <a href="./07_teamproj_menu_order.html"><img src="./img/K-073.png" alt="시그니처 라떼"></a>
                     <p>시그니처 라떼</p>
                 </div>
             </div>

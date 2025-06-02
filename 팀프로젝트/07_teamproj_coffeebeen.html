@@ -5,7 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>메뉴 | 수제커피브루</title>
-    <link rel="stylesheet" href="./coffeebeen.css">
+    <link rel="stylesheet" href="./static/css/coffeebeen.css">
+        <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+  
+    <link rel="stylesheet" href="../static/css/footer.css">
     <style>
         
     </style>
@@ -14,13 +18,16 @@
 <body>
 
     <header>
-        <h1>수제커피 이른 아침</h1>
-        <nav>            
+         <h1><img src="./img/K-038.png"> 이른 아침</h1>
+        <nav>
             <a href="./07_teamproj_index.html">홈</a>
             <a href="./07_teamproj_submenu.html" class="active">메뉴</a>
             <a href="./07_teamproj_findstore.html">매장 찾기</a>
-            <a href="./07_teamproj_order_page.html">배송현황</a>
-            <a href="./07_teamproj_order_tracking.html" class="active">주문조회</a>
+            <a href="./07_teamproj_dlivery.html">배송현황</a>
+            <a href="./07_teamproj_order_tracking.html">주문조회</a>
+            <a href="./07_teamproj_board.html" >자유 게시판</a>
+        </nav>
+        <nav>
             <a href="./07_teamproj_login.html">로그인</a>
             <a href="./07_teamproj_join_page.html">회원 가입</a>
             <span class="cart-icon">장바구니🛒<span class="cart-count">0</span></span>
@@ -31,7 +38,7 @@
         <h2 class="menu-title">우리의 인기 커피 원두 메뉴</h2>
         <div class="menu-grid">
             <div class="menu-card">
-                <img src="./02_CSS/img/bg_tree.png" alt="브루드 아메리카노">
+                <img src="./02_CSS/img/bg_tree.png" alt="블루 보틀 - (bella donovan)">
                 <div class="menu-card-content">
                     <h3>블루 보틀 - (bella donovan)</h3>
                     <p>roasting : 미디엄</p>
@@ -44,7 +51,7 @@
 
 
             <div class="menu-card">
-                <img src="./02_CSS/img/bg_tree.png" alt="핸드드립 콜드브루">
+                <img src="./02_CSS/img/bg_tree.png" alt="colombia finca el paraiso">
                 <div class="menu-card-content">
                     <h3>colombia finca el paraiso</h3>
                     <p>roasting : 라이트</p>
@@ -56,7 +63,7 @@
             </div>
 
             <div class="menu-card">
-                <img src="./02_CSS/img/bg_tree.png" alt="시그니처 라떼">
+                <img src="./02_CSS/img/bg_tree.png" alt="honduras el puente">
                 <div class="menu-card-content">
                     <h3>honduras el puente</h3>
                     <p>roasting : 라이트</p>
@@ -68,7 +75,7 @@
                 </div>
             </div>
             <div class="menu-card">
-                <img src="./02_CSS/img/bg_tree.png" alt="밀크 라떼">
+                <img src="./02_CSS/img/bg_tree.png" alt="cup of excellence">
                 <div class="menu-card-content">
                     <h3>cup of excellence</h3>
                     <p>roasting : 라이트</p>
@@ -85,7 +92,7 @@
         <h2 class="menu-title">시즌 기념 한정 커피 원두</h2>
         <div class="menu-grid">
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="브루드 아메리카노">
+                <img src="./02_CSS/img/bg_tree.png" alt="el paraiso double anaerobic washed">
                 <div class="menu-card-content">
                     <h3>el paraiso double anaerobic washed</h3>
                     <p>roasting : 라이트</p>
@@ -98,7 +105,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="핸드드립 콜드브루">
+                <img src="./02_CSS/img/bg_tree.png" alt="ethiopia yirgacheffe">
                 <div class="menu-card-content">
                     <h3>ethiopia yirgacheffe</h3>
                     <p>roasting : 없음</p>
@@ -111,7 +118,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="시그니처 라떼">
+                <img src="./02_CSS/img/bg_tree.png" alt="kenya aa">
                 <div class="menu-card-content">
                     <h3>kenya aa</h3>
                     <p>roasting : 없음</p>
@@ -124,7 +131,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="에스프레쏘">
+                <img src="./02_CSS/img/bg_tree.png" alt="brazil santos">
                 <div class="menu-card-content">
                     <h3>brazil santos</h3>
                     <p>roasting : 없음</p>
@@ -137,7 +144,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="에스프레쏘">
+                <img src="./02_CSS/img/bg_tree.png" alt="colombia supremo">
                 <div class="menu-card-content">
                     <h3>colombia supremo</h3>
                     <p>roasting : 없음</p>
@@ -150,7 +157,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="에스프레쏘">
+                <img src="./02_CSS/img/bg_tree.png" alt="ethiopia yirgacheffe washed">
                 <div class="menu-card-content">
                     <h3>ethiopia yirgacheffe washed</h3>
                     <p>roasting : 없음</p>
@@ -163,7 +170,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="에스프레쏘">
+                <img src="./02_CSS/img/bg_tree.png" alt="로브스타">
                 <div class="menu-card-content">
                     <h3>로브스타</h3>
                     <p>roasting : 미디엄 다크</p>
@@ -176,7 +183,7 @@
             </div>
 
             <div class="menu-card2">
-                <img src="./02_CSS/img/bg_tree.png" alt="에스프레쏘">
+                <img src="./02_CSS/img/bg_tree.png" alt="이른 아침 시그니처">
                 <div class="menu-card-content">
                     <h3>이른 아침 시그니처</h3>
                     <p>roasting : 미디엄 라이트</p>

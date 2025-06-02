@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>수제커피브루 - 자유게시판</title>
-    <link rel="stylesheet" href="./board.css">
+    <link rel="stylesheet" href="../static/css/board.css">
+          <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/board.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
 </head>
 <body>
     <header>
-        <h1>수제커피브루</h1>
-        <h1>수제커피 이른 아침</h1>
-        <nav>            
-            <a href="./07_teamproj_index.html" >홈</a>
+         <h1><img src="./img/K-038.png"> 이른 아침</h1>
+        <nav>
+            <a href="./07_teamproj_index.html">홈</a>
             <a href="./07_teamproj_submenu.html">메뉴</a>
             <a href="./07_teamproj_findstore.html">매장 찾기</a>
-            <a href="./07_teamproj_dlivery.html" >배송현황</a>
-            <a href="./07_teamproj_order_tracking.html" >주문조회</a>
+            <a href="./07_teamproj_dlivery.html">배송현황</a>
+            <a href="./07_teamproj_order_tracking.html">주문조회</a>
+            <a href="./07_teamproj_board.html" class="active">자유 게시판</a>
+        </nav>
+        <nav>
             <a href="./07_teamproj_login.html">로그인</a>
             <a href="./07_teamproj_join_page.html">회원 가입</a>
-            <a href="./07_teamproj_board.html">자유 게시판</a>
-            <span class="cart-icon" class="active">장바구니🛒<span class="cart-count">0</span></span>
+            <span class="cart-icon">장바구니🛒<span class="cart-count">0</span></span>
         </nav>
     </header>
 
@@ -26,8 +31,8 @@
         <h2>공지 사항</h2>
         <div class="board-header">
             <div class="search-box">
-                <input id="search-input" placeholder="검색">
-                <button onclick="searchPosts()">검색</button>
+                <input type="text" id="search-input" placeholder="제목 또는 작성자로 검색">
+                <button onclick="searchAnnouncements()">검색</button>
             </div>
             <a href="./07_teamproj_notice_write.html" class="write-btn">글쓰기</a>
         </div>
@@ -44,12 +49,13 @@
             <tbody id="board-body"></tbody>
         </table>
         <div class="pagination" id="pagination"></div>
+        <tbody id="announcement-list"></tbody>
     </main>
 
     <footer>
         <p>© 2025 수제커피브루 | 경기도 커피시 향기구 아라비카로 100</p>
     </footer>
 
-    <script src="./board.js"></script>
+    <script src="./static/js/notice.js"></script>
 </body>
 </html>
