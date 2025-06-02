@@ -70,6 +70,7 @@
 
       .menu-card,
       .menu-card2 {
+           
           background-color: #fff;
           border: 1px solid #2d4739;
           border-radius: 10px;
@@ -84,10 +85,10 @@
       }
 /* 상품 이미지 */
       .product-img img{               
-            width: 100%;
+            width: 170px;
             height: 192px;
             object-fit: contain;
-            padding: 8px;
+           
         }
       
 
@@ -109,7 +110,8 @@
           transform: translateY(-5px);
       }
 
-      .btn {
+      .btn {         
+                               
           background-color: #2d4739;
           color: #fdfcf7;
           padding: 10px 15px;
@@ -118,6 +120,7 @@
           cursor: pointer;
           font-size: 0.9em;
           margin-bottom: 5px;
+          margin-top:20px;
       }
 
       .btn:hover {

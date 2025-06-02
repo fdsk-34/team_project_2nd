@@ -83,7 +83,7 @@
           margin-right: 5px;
       }
 /* 상품 이미지 */
-      .product-img img{               
+      .product-img {               
             width: 100%;
             height: 192px;
             object-fit: contain;
